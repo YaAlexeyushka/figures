@@ -9,7 +9,7 @@ class Figures {
 public:
     virtual double calc_area() = 0;
     virtual double calc_perimeter() = 0;
-    virtual void name() = 0;
+    virtual string name() = 0;
 };
 
 #endif

@@ -127,17 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="figures\figures.cpp" />
     <ClCompile Include="figures\point\point.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="figures\circle\circle.h" />
-    <ClInclude Include="figures\ellips\ellips.h" />
+    <ClInclude Include="figures\ellipse\ellipse.h" />
     <ClInclude Include="figures\figures.h" />
     <ClInclude Include="figures\point\point.h" />
+    <ClInclude Include="figures\polygon\polygon.h" />
     <ClInclude Include="figures\rectangle\rectangle.h" />
     <ClInclude Include="figures\triangle\triangle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
